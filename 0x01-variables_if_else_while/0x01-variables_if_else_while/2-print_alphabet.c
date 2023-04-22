@@ -23,6 +23,6 @@ putcher(alphabet);
 break;
 }
 }
-putcher("*\n");
+putcher("\n");
 return (0);
 }
