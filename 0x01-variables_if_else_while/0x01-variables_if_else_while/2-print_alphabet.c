@@ -13,15 +13,6 @@ for (alphabet = 'a'; alphabet < = 'z'; alphabet++)
 {
 alphabet = tolower(alphabet);
 putcher(alphabet);
-if (alphabet == 'z')
-{
-alphabet = 'A';
-for (; alphabet < = 'z'; alphabet++)
-{
-putcher(alphabet);
-}
-break;
-}
 }
 putcher("\n");
 return (0);
