@@ -13,11 +13,11 @@
 
 	while (i <= 9)
 	{
-        for (c = 'a'; c <= 'z'; c++)
+		for (c = 'a'; c <= 'z'; c++)
         {
-        _putchar(c);
+		putchar(c);
         }
-        _putchar('\n');
-	i++;
+	       	_putchar('\n');
+		i++;
 	}
 }
